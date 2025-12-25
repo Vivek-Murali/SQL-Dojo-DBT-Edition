@@ -1,0 +1,108 @@
+[0m22:22:13.123618 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b7436c87b90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b7436e1e890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b7436e1ec10>]}
+
+
+============================== 22:22:13.131448 | 93e48b47-f218-40b6-b8ac-d94abdee3040 ==============================
+[0m22:22:13.131448 [info ] [MainThread]: Running with dbt=1.10.15
+[0m22:22:13.132237 [debug] [MainThread]: running dbt with arguments {'write_json': 'True', 'indirect_selection': 'eager', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'warn_error': 'None', 'invocation_command': 'dbt init', 'log_path': 'logs', 'empty': 'None', 'use_experimental_parser': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'target_path': 'None', 'introspect': 'True', 'printer_width': '80', 'debug': 'False', 'fail_fast': 'False', 'log_format': 'default', 'quiet': 'False', 'profiles_dir': '/home/sungodnika/.dbt', 'static_parser': 'True', 'cache_selected_only': 'False', 'version_check': 'True', 'use_colors': 'True', 'log_cache_events': 'False', 'no_print': 'None'}
+[0m22:22:13.216840 [info ] [MainThread]: Creating dbt configuration folder at /home/sungodnika/.dbt
+[0m22:22:23.353029 [debug] [MainThread]: Starter project path: /home/sungodnika/Personal/SQL-Dojo/.venv/lib/python3.11/site-packages/dbt/include/starter_project
+[0m22:22:23.370140 [info ] [MainThread]: 
+Your new dbt project "nytaxi" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m22:22:23.371181 [info ] [MainThread]: Setting up your profile.
+[0m22:24:06.017492 [info ] [MainThread]: Profile nytaxi written to /home/sungodnika/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m22:24:06.019207 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 104.81517, "process_in_blocks": "423856", "process_kernel_time": 2.665413, "process_mem_max_rss": "370380", "process_out_blocks": "792", "process_user_time": 6.707601}
+[0m22:24:06.020546 [debug] [MainThread]: Command `dbt init` succeeded at 22:24:06.020279 after 104.82 seconds
+[0m22:24:06.021575 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b743a981290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b7436fce590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b743aaa6e90>]}
+[0m22:24:06.022468 [debug] [MainThread]: Flushing usage events
+[0m22:24:06.561347 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:19:56.093643 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70adf94ebe90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70adf6b02810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70adf94e81d0>]}
+
+
+============================== 21:19:56.101945 | 4c1eb26b-31f8-4596-b250-e9f15a084d1c ==============================
+[0m21:19:56.101945 [info ] [MainThread]: Running with dbt=1.10.15
+[0m21:19:56.103034 [debug] [MainThread]: running dbt with arguments {'quiet': 'False', 'use_experimental_parser': 'False', 'printer_width': '80', 'static_parser': 'True', 'log_format': 'default', 'partial_parse': 'True', 'use_colors': 'True', 'version_check': 'True', 'fail_fast': 'False', 'debug': 'False', 'empty': 'None', 'send_anonymous_usage_stats': 'True', 'profiles_dir': '/home/sungodnika/.dbt', 'log_cache_events': 'False', 'indirect_selection': 'eager', 'warn_error': 'None', 'log_path': 'logs', 'cache_selected_only': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'no_print': 'None', 'invocation_command': 'dbt debug', 'introspect': 'True', 'write_json': 'True'}
+[0m21:19:56.140296 [info ] [MainThread]: dbt version: 1.10.15
+[0m21:19:56.141095 [info ] [MainThread]: python version: 3.11.13
+[0m21:19:56.141656 [info ] [MainThread]: python path: /home/sungodnika/Personal/SQL-Dojo/.venv/bin/python3
+[0m21:19:56.142219 [info ] [MainThread]: os info: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39
+[0m21:20:02.749324 [info ] [MainThread]: Using profiles dir at /home/sungodnika/.dbt
+[0m21:20:02.750631 [info ] [MainThread]: Using profiles.yml file at /home/sungodnika/.dbt/profiles.yml
+[0m21:20:02.751534 [info ] [MainThread]: Using dbt_project.yml file at /home/sungodnika/Personal/SQL-Dojo/dbt_project.yml
+[0m21:20:02.752658 [info ] [MainThread]: adapter type: bigquery
+[0m21:20:02.753514 [info ] [MainThread]: adapter version: 1.10.3
+[0m21:20:02.754369 [info ] [MainThread]: Configuration:
+[0m21:20:02.755769 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m21:20:02.756516 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m21:20:02.757212 [info ] [MainThread]: Required dependencies:
+[0m21:20:02.757936 [debug] [MainThread]: Executing "git --help"
+[0m21:20:02.764903 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m21:20:02.766162 [debug] [MainThread]: STDERR: "b''"
+[0m21:20:02.766996 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m21:20:02.767787 [info ] [MainThread]: Connection:
+[0m21:20:02.768545 [info ] [MainThread]:   method: service-account
+[0m21:20:02.769221 [info ] [MainThread]:   database: gen-lang-client-0649957005
+[0m21:20:02.769928 [info ] [MainThread]:   execution_project: gen-lang-client-0649957005
+[0m21:20:02.770884 [info ] [MainThread]:   schema: taxi
+[0m21:20:02.771608 [info ] [MainThread]:   location: US
+[0m21:20:02.772326 [info ] [MainThread]:   priority: interactive
+[0m21:20:02.773731 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m21:20:02.774567 [info ] [MainThread]:   impersonate_service_account: None
+[0m21:20:02.775625 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m21:20:02.776430 [info ] [MainThread]:   job_retries: 1
+[0m21:20:02.777138 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m21:20:02.777609 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m21:20:02.778138 [info ] [MainThread]:   timeout_seconds: 300
+[0m21:20:02.778713 [info ] [MainThread]:   client_id: None
+[0m21:20:02.779242 [info ] [MainThread]:   token_uri: None
+[0m21:20:02.780178 [info ] [MainThread]:   compute_region: None
+[0m21:20:02.781082 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m21:20:02.781973 [info ] [MainThread]:   gcs_bucket: None
+[0m21:20:02.782748 [info ] [MainThread]:   dataproc_batch: None
+[0m21:20:02.783621 [info ] [MainThread]: Registered adapter: bigquery=1.10.3
+[0m21:20:03.192966 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m21:20:03.194272 [debug] [MainThread]: On debug: select 1 as id
+[0m21:20:03.195018 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:20:04.216910 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=gen-lang-client-0649957005&j=bq:US:2e31dd5b-ed0f-4eb6-bb3c-30bae61f40bb&page=queryresults
+[0m21:20:04.851283 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m21:20:04.852440 [info ] [MainThread]: [31m1 check failed:[0m
+[0m21:20:04.853180 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </home/sungodnika/Personal/SQL-Dojo/dbt_project.yml> not found
+
+[0m21:20:04.854390 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 8.844592, "process_in_blocks": "421472", "process_kernel_time": 2.709412, "process_mem_max_rss": "382268", "process_out_blocks": "360", "process_user_time": 7.506404}
+[0m21:20:04.855073 [debug] [MainThread]: Command `dbt debug` failed at 21:20:04.854929 after 8.85 seconds
+[0m21:20:04.855581 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m21:20:04.856193 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70adfa559350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70adb6176bd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70adf6c1d1d0>]}
+[0m21:20:04.856795 [debug] [MainThread]: Flushing usage events
+[0m21:20:05.404258 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m00:45:00.235780 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77e9335bb250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77e9335b9d50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77e9335bb710>]}
+
+
+============================== 00:45:00.244252 | 3e38be44-e0db-4b7e-bcfc-0b984c2d599d ==============================
+[0m00:45:00.244252 [info ] [MainThread]: Running with dbt=1.10.15
+[0m00:45:00.245141 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'static_parser': 'True', 'debug': 'False', 'invocation_command': 'dbt run --select stg_yellow_tripdata', 'no_print': 'None', 'use_colors': 'True', 'introspect': 'True', 'quiet': 'False', 'log_format': 'default', 'partial_parse': 'True', 'log_path': 'logs', 'send_anonymous_usage_stats': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'warn_error': 'None', 'profiles_dir': '/home/sungodnika/.dbt', 'cache_selected_only': 'False', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'fail_fast': 'False', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'printer_width': '80'}
+[0m00:45:00.245950 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/sungodnika/Personal/SQL-Dojo/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m00:45:00.246937 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.085383296, "process_in_blocks": "100920", "process_kernel_time": 0.692556, "process_mem_max_rss": "100080", "process_out_blocks": "16", "process_user_time": 1.753665}
+[0m00:45:00.247593 [debug] [MainThread]: Command `dbt run` failed at 00:45:00.247441 after 0.09 seconds
+[0m00:45:00.248234 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77e93733d4d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77e9335bb710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77e933586b10>]}
+[0m00:45:00.248761 [debug] [MainThread]: Flushing usage events
+[0m00:45:00.869584 [debug] [MainThread]: An error was encountered while trying to flush usage events

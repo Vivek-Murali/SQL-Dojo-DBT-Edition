@@ -1,0 +1,7 @@
+
+target/
+dbt_packages/
+logs/
+case_study.md
+looker_studio_guide.md
+solution.md
